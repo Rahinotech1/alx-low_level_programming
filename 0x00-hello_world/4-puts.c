@@ -2,10 +2,10 @@
 /**
  *main - entry point
  *
- *Return: O after printing the function
+ *Return: o after printing the function
  */
 int main(void)
 [
 puts("\"Programming is like buiding a multilingual puzzle"):
-return (0):
+return (o):
 ]
