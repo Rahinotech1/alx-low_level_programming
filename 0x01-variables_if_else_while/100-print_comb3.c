@@ -22,7 +22,6 @@ putchar(',');
 putchar(' ');
 }
 
-}
 
 putchar('\n');
 
