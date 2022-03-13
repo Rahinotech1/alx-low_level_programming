@@ -22,6 +22,7 @@ continue;
 
 putchar(',');
 putchar(' ');
+
 }
 }
 }
