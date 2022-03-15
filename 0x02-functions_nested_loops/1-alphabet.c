@@ -19,6 +19,4 @@ _putchar(print_alphabet);
 
 _putchar('\n');
 
-return (0);
-
 }
