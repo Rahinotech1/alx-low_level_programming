@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _isalpha - Entry point
+ * int _islower(int c) - Entry point
  *
  * Return: Always 0 (Success/correct)
  */
