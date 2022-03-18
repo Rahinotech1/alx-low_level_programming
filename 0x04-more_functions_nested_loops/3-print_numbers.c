@@ -2,17 +2,19 @@
 
 /**
  * print_numbers - Entry point
+ *
  * Description: Prints the numbers with _putchar
+ *
  * Return: void
  */
 
 void print_numbers(void)
 {
-int number;
+int i;
 
-for (number = '0'; number <= '9'; number++)
+for (i = '0'; i <= '9'; i++)
 {
-_putchar(number);
+_putchar(i);
 }
 _putchar('\n');
 }
