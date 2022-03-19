@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers(void) - Entry point
+ * print_most_numbers - Entry point
  * Description: Prints the numbers with _putchar
  * Return: Always 0.
  */
 void print_most_numbers(void)
 {
 
-int number;
+int i;
 
-for (number = '0'; number <= '9'; number++)
+for (i = '0'; i <= '9'; i++)
 {
-if (number == '2' || number == '4');
+if (i == '2' || i == '4');
 
 else
-putchar(number);
+putchar(i);
 }
 
 putchar ('\n');
