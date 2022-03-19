@@ -15,10 +15,10 @@ for (number = '0'; number <= '9'; number++)
 if (number == '2' || number == '4');
 
 else
-putchar(number);
+_putchar(number);
 }
 
-putchar ('\n');
+_putchar ('\n');
 
 }
 
