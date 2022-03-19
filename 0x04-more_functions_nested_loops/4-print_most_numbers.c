@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * pint_most_numbers - print numbers
