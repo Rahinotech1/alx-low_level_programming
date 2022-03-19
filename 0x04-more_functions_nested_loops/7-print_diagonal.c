@@ -5,7 +5,7 @@
  *
  * Description: Prints diagonals
  * @n: print int
- *  Return: Always 0
+ *  Return: Always 0.
  */
 
 void print_diagonal(int n)
@@ -29,9 +29,11 @@ putchar ('\n');
 
 }
 
+
 else
 {
 putchar ('\n');
 }
 
 }
+
