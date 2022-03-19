@@ -13,7 +13,7 @@ int row, hashes, spaces;
 
 if (size <= 0)
 {
-_putchar('\n');
+putchar('\n');
 }
 else
 {
@@ -21,13 +21,13 @@ for (row = 1; row <= size; row++)
 {
 for (spaces = size - row; spaces >= 1; spaces--)
 {
-_putchar(' ');
+putchar(' ');
 }
 for (hashes = 1; hashes <= row; hashes++)
 {
-_putchar('#');
+putchar('#');
 }
-_putchar('\n');
+putchar('\n');
 }
 }
 }
