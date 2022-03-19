@@ -8,7 +8,7 @@
  *  Return: Always 0
  */
 
-old print_diagonal(int n)
+void print_diagonal(int n)
 
 int row, num_lines;
 
