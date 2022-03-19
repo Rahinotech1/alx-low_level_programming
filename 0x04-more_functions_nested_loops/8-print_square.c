@@ -3,8 +3,8 @@
 /**
  * print_square - Entry point
  * Description: Prints square
- * @size: size of square
- * Return: void
+ * @size: print size  
+ * Return: Always 0.
  */
 
 void print_square(int size)
@@ -25,5 +25,7 @@ putchar('#');
 }
 putchar('\n');
 }
+
 }
+
 
