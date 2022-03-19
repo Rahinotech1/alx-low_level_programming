@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include "main.h"
 /**
  * print_square - Entry point
@@ -5,7 +6,6 @@
  * @size: print size  
  * Return: Always 0.
  */
-
 void print_square(int size)
 {
 
@@ -19,9 +19,9 @@ for (i = 0; i < size; i++)
 
 for (k = 0; k < size; k++)
 {
-putchar (35);
+_putchar (35);
 }
-putchar ('\n');
+_putchar ('\n');
 
 }
 
@@ -29,7 +29,7 @@ putchar ('\n');
 
 else
 {
-putchar('\n');
+_putchar ('\n');
 }
 
 }
