@@ -5,7 +5,7 @@
  * Description: Prints the numbers with putchar
  * Return: Always 0.
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 
 int number;
@@ -17,7 +17,9 @@ if (number == '2' || number == '4');
 else
 putchar(number);
 }
+
 putchar ('\n');
+
 }
 
 
