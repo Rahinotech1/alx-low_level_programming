@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * pint_most_numbers - print numbers
+ * print_most_numbers - print numbers
  *
  * Return: Always 0.
  */
@@ -19,6 +19,4 @@ putchar(number);
 putchar ('\n');
 }
 
-return: (0)
 
-}
