@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - print numbers
- *
+ * print_most_numbers - Entry point
+ * Description: Prints the numbers with putchar
  * Return: Always 0.
  */
 void print_most_numbers(void)
