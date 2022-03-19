@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - Entry point
+ * void print_most_numbers(void) - Entry point
  * Description: Prints the numbers with _putchar
  * Return: Always 0.
  */
@@ -15,10 +15,10 @@ for (number = '0'; number <= '9'; number++)
 if (number == '2' || number == '4');
 
 else
-_putchar(number);
+putchar(number);
 }
 
-_putchar ('\n');
+putchar ('\n');
 
 }
 
