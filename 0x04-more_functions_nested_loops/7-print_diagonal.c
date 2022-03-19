@@ -3,8 +3,8 @@
 /**
  * print_diagonal - Entry point
  *
- * Description: Prints diagonals
- * @n: print int
+ * Description: function that draws a diagonal line
+ * @n: number of spaces
  *  Return: Always 0.
  */
 
