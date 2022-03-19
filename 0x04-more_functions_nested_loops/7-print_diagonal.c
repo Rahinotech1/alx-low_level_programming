@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_diagonal -Entry point
+ * print_diagonal - Entry point
  *
  * Description: Prints diagonals
- * @n: number of spaces
+ * @n: print int
  *  Return: Always 0
  */
 
