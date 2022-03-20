@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - prints 3 combination of numbers
  *
@@ -18,6 +17,8 @@ for (k = 48; k <= 48; k++)
 for (j = 48; j <= 48; j++)
 {
 if (((k + j) > (c+ i ) && k >= c || c < k)
+
+
 {
 putchar(c);
 putchar(i);
