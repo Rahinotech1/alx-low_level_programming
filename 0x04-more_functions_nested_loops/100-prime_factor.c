@@ -9,7 +9,7 @@ int main(void)
 {
 long int number;
 
-number = 612852475143
+number = 612852475143;
 
 if (isPrime(number) == 1)
 {
@@ -46,7 +46,7 @@ if (n % i == 0)
 return (0);
 }
 }
-return (1)
+return (1);
 }
 }
 /**
@@ -70,7 +70,7 @@ else
 if ((factor % i == 0) && (isPrime(i) == 1))
 {
 factor = factor / i;
-continue
+continue;
 }
 else
 {
