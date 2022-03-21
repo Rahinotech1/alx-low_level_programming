@@ -1,0 +1,2 @@
+My pointers Arrays Strings
+`
