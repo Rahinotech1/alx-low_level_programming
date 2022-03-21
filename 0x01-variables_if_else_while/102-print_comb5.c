@@ -1,47 +1,50 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - prints 3 combination of numbers
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int c, i, k, j;
+int i, j, k, l;
 
-for (c = 48; c <= 57; c++)
+i = j = k = 48; l = 49;
+while  ((i < 58))
 {
-for (i = 48; i <= 57; i++)
+putchar(i); putchar(j); putchar(32); putchar(k); putchar(l);
+if ((i == 57) && (j == 56) && (k == 57) && (l == 57))
 {
-for (k = 48; k <= 48; k++)
-{
-for (j = 48; j <= 48; j++)
-{
-if (((k + j) > (c+ i ) && k >= c || c < k)
-
-
-{
-putchar(c);
-putchar(i);
-putchar(' ');
-putchar(k);
-putchar(j);
-
-if (c + i + k + j == 227 && c == 57)
-{
-break;
+putchar('\n'); i++;
 }
 else
 {
-putchar(',');
-putchar(' ');
+putchar(44); putchar(32);
+if ((k == 57) && (l == 57))
+{
+if (j < 56)
+{
+l = ++j + 1; k = i;
+}
+else if (j == 56)
+{
+j++; k = i + 1; l = 48;
+}
+else if (j == 57)
+{
+j = 48; l = 49; k = ++i;
+}
+}
+else if (l < 57)
+{
+l++;
+}
+else
+{
+l = 48; k++;
 }
 }
 }
-}
-}
-}
-
-putchar('\n');
-
 return (0);
 }
