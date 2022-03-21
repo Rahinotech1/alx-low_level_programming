@@ -1,32 +1,54 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - prints all possible different combinations of three digits
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int n, m, l;
+int i;
+int j;
+int k;
 
-for (n = 48; n < 58; n++)
+i = 48;
+j = 49;
+k = 50;
+while  ((i < 56) && (j < 57) && (k < 58))
 {
-for (m = 49; m < 58; m++)
+putchar(i);
+putchar(j);
+putchar(k);
+if ((i == 55) && (j == 56) && (k == 57))
 {
-for (l = 50; l < 58; l++)
-{
-if (l > m && m > n)
-{
-{
-putchar(n);
-putchar(m);
-putchar(l);
-if (n !=55 || m !=56)
-{
-putchar(',');
-putchar(' ');
-}
-}
-}
-}
 putchar('\n');
+i++;
+j++;
+k++;
+}
+else
+{
+putchar(44);
+putchar(32);
+if (k < 57)
+{
+k++;
+}
+else if ((j < 56) && (k == 57))
+{
+k = 1 + ++j;
+}
+else
+{
+j = 1 + ++i;
+k = 1 + j;
+}
+}
+}
 return (0);
+}
+
+
+
+
