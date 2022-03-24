@@ -20,7 +20,7 @@ while (j < n && *(src + j))
 i++;
 j++;
 }
-if (i < n)
+if (j < n)
 *(dest + i) = *(src + j);
 return (dest);
 }
