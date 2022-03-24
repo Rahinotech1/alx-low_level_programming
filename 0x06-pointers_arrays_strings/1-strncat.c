@@ -5,7 +5,7 @@
  * @dest: string that concatenates two strings by src 
  * @src: string that concatenates two strings by dest
  * @n: numbers that contains more bytes
- * Return: 0
+ * Return: Always 0
  */
 char *_strncat(char *dest, char *src, int n)
 {
