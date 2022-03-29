@@ -14,7 +14,7 @@ unsigned int i;
 
 for (i = 0; i < n; i++)
 {
-*(s + i) = b;
+s[i] - b;
 }
 return (s);
 }
