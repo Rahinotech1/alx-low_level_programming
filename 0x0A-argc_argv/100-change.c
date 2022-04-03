@@ -2,28 +2,38 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry Point
- * @argc: arguments
+ * main - prints minimum number of coins to make change for an amount of money
+ * @argc: number of arguments passed to the function
  * @argv: array pointing to arguments
- * Return: 0
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
-int i, sum = 0;
+int a, n = 0, i, t;
+int c[5] = {25, 10, 5, 2, 1};
 
-if (argc < 1)
-return (0);
-
-for (i = 1; i < argc; i++)
+if (argc != 2)
 {
-if (!atoi(argv[i]))
-{
-printf("%s\n", "Error");
+puts("Error");
 return (1);
 }
-sum += atoi(argv[i]);
+a = atoi(argv[1]);
+if (a <= 0)
+{
+puts("0");
+return (1);
 }
-printf("%d\n", sum);
-
+else
+{
+for (i = 0; i < 5; i++)
+{
+t = a / c[i];
+a -= t * c[i];
+n += t;
+if (a == 0)
+break;
+}
+}
+printf("%d\n", n);
 return (0);
 }
