@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * main - Program that prints number of arguments
  * @argc: number of arguments
