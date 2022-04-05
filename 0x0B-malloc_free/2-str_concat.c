@@ -5,7 +5,6 @@
  * str_concat - concatenates two strings
  * @s1: first string
  * @s2: second string
- * 
  * Return: Always 0
  */
 char *str_concat(char *s1, char *s2)
@@ -28,7 +27,7 @@ for (j = 0; s2[j]; j++)
 ;
 }
 k = i + j + 1;
-s = malloc(k * sizeof(char));
+s = malloc(k *sizeof(char));
 if (s == NULL)
 return (NULL);
 for (l = 0; l < i; l++)
@@ -38,3 +37,4 @@ s[l + i] = s2[l];
 s[i + j] = '\0';
 return (s);
 }
+
