@@ -3,13 +3,16 @@
 #include "dog.h"
 /**
  * free_dog - Entry Point
- * @d: struct to free
+ * @d: pointer to dog to free
  * Return: Always 0
  */
 void free_dog(dog_t *d)
 {
-if (d == NULL)
-return;
+if (d)
+{
+free(d->name);
+free(d->owner);
 free(d);
+}
 }
 
