@@ -1,8 +1,8 @@
 #include "list.h"
 /**
- * main - function that returns the number of element
- * @h - head of node
- * Return - Always 0
+ * dlistint_len - counts number of nodes
+ * @h: head of node
+ * Return: number of nodes
  */
 size_t dlistint_len(const dlistint_t *h)
 {
@@ -13,5 +13,5 @@ while (h != NULL)
 h = h->next;
 count++;
 }
-return (count)
+return (count);
 }
