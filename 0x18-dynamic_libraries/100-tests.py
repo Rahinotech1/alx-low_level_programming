@@ -9,4 +9,3 @@ print(type(100-functions))
 print(100-functions.square(10))
 
 print("Done")
-
