@@ -1,10 +1,11 @@
 import random
 import ctypes
 
-so_file = ctypes.CDLL('./100-operations.so')
-100-operations = CDLL(so_file)
-
-print(type(100-functions))
-print(100-functions.square(10))
-
-print("Done")
+cops = ctypes.CDLL('./100-operations.so')
+a = random.randint(-111, 111)
+b = random.randint(-111, 111)
+print("{} + {} = {}".format(a, b, cops.add(a, b)))
+print("{} - {} = {}".format(a, b, cops.sub(a, b)))
+print("{} x {} = {}".format(a, b, cops.mul(a, b)))
+print("{} / {} = {}".format(a, b, cops.div(a, b)))
+print("{} % {} = {}".format(a, b, cops.mod(a, b)))
